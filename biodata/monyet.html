@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image with Text</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #D98FD3;
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            gap: 20px;
+        }
+        .item {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+        .image {
+            display: block;
+            width: 100px;
+            height: 100px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+        }
+        .text-box {
+            background-color: #D1C4E9;
+            padding: 5px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">
+            <img src="jaemin.jpg" alt="Image 1" class="image">
+            <div class="text-box">ABOUT ME</div>
+        </div>
+        <div class="item">
+            <img src="jaemin.jpg" alt="Image 2" class="image">
+            <div class="text-box">HOBI</div>
+        </div>
+        <div class="item">
+            <img src="jaemin.jpg" alt="Image 3" class="image">
+            <div class="text-box">GAME</div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobi Aku</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5c6cc;
+            text-align: center;
+        }
+        .title {
+            font-weight: bold;
+            font-size: 24px;
+            margin: 20px 0;
+        }
+        .hobbies {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .hobby {
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+        }
+        .hobby img {
+            border: 2px solid #000;
+            border-radius: 10px;
+            width: 100px;
+            height: 100px;
+            margin: 0 10px;
+        }
+        .left {
+            flex-direction: row-reverse;
+        }
+    </style>
+</head>
+<body>
+    <div class="title">Hobi aku</div>
+    <div class="hobbies">
+        <div class="hobby left">
+            <img src="game.jpg" alt="Bermain game">
+            <span>Bermain game</span>
+        </div>
+        <div class="hobby right">
+            <img src="desain.jpg" alt="Desain">
+            <span>Desain</span>
+        </div>
+        <div class="hobby left">
+            <img src="nyanyi.jpg" alt="Bernyanyi">
+            <span>Bernyanyi</span>
+        </div>
+        <div class="hobby right">
+            <img src="cosplay.jpg" alt="Cosplay">
+            <span>Cosplay</span>
+        </div>
+    </div>
+</body>
+</html>
